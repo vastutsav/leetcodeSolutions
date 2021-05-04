@@ -6,6 +6,7 @@ public:
     
     string getToken()
     {
+        srand(time(NULL));
         string dict = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         int l = dict.length();
         string s = "";
