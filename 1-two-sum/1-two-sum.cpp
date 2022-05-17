@@ -9,6 +9,7 @@ public:
             if (u_map.find(need) != u_map.end()) {
                 result.push_back(i);
                 result.push_back(u_map[need]);
+                return result;
             }
             u_map[nums[i]] = i;
         }
